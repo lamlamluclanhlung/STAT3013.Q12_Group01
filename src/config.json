@@ -1,0 +1,7 @@
+{
+  "RAW": "data/raw",
+  "FEATURES": "features",
+  "RESULTS": "results",
+  "FIGURES": "figures",
+  "SEED": 42
+}

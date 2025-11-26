@@ -1,0 +1,64 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   ln_q   R-squared:                       0.935
+Model:                            OLS   Adj. R-squared:                  0.933
+Method:                 Least Squares   F-statistic:                     396.0
+Date:                Wed, 26 Nov 2025   Prob (F-statistic):               0.00
+Time:                        14:34:42   Log-Likelihood:                -1433.2
+No. Observations:                1083   AIC:                             2944.
+Df Residuals:                    1044   BIC:                             3139.
+Df Model:                          38                                         
+Covariance Type:            nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+Intercept                         -0.5311      0.227     -2.341      0.019      -0.976      -0.086
+C(group_id)[T.CHARITABLE CONT]     0.3141      0.956      0.329      0.743      -1.562       2.190
+C(group_id)[T.CHEF SHOPPE]         0.7081      0.294      2.406      0.016       0.131       1.286
+C(group_id)[T.CNTRL/STORE SUP]    -0.5668      0.520     -1.090      0.276      -1.587       0.454
+C(group_id)[T.COSMETICS]           3.3493      0.258     12.960      0.000       2.842       3.856
+C(group_id)[T.COUP/STR & MFG]      1.3852      0.296      4.681      0.000       0.805       1.966
+C(group_id)[T.DAIRY DELI]          1.6722      0.470      3.561      0.000       0.751       2.594
+C(group_id)[T.DELI]                5.7466      0.249     23.057      0.000       5.258       6.236
+C(group_id)[T.DRUG GM]             7.3791      0.252     29.323      0.000       6.885       7.873
+C(group_id)[T.FLORAL]              3.3847      0.247     13.683      0.000       2.899       3.870
+C(group_id)[T.FROZEN GROCERY]      0.3408      0.263      1.297      0.195      -0.175       0.857
+C(group_id)[T.GARDEN CENTER]       1.7176      0.259      6.621      0.000       1.209       2.227
+C(group_id)[T.GM MERCH EXP]       -0.4558      0.701     -0.651      0.516      -1.831       0.919
+C(group_id)[T.GROCERY]             8.9470      0.265     33.710      0.000       8.426       9.468
+C(group_id)[T.HBC]                -0.4719      0.512     -0.921      0.357      -1.477       0.533
+C(group_id)[T.HOUSEWARES]          0.2905      0.950      0.306      0.760      -1.573       2.154
+C(group_id)[T.KIOSK-GAS]          13.6023      0.272     50.004      0.000      13.069      14.136
+C(group_id)[T.MEAT]                5.9291      0.272     21.798      0.000       5.395       6.463
+C(group_id)[T.MEAT-PCKGD]          6.1798      0.270     22.886      0.000       5.650       6.710
+C(group_id)[T.MISC SALES TRAN]    11.1158      0.249     44.730      0.000      10.628      11.603
+C(group_id)[T.MISC. TRANS.]        2.6024      0.250     10.415      0.000       2.112       3.093
+C(group_id)[T.NUTRITION]           5.1275      0.254     20.187      0.000       4.629       5.626
+C(group_id)[T.PASTRY]              5.3227      0.256     20.810      0.000       4.821       5.825
+C(group_id)[T.PORK]               -0.0698      0.687     -0.102      0.919      -1.418       1.279
+C(group_id)[T.POSTAL CENTER]       0.0798      0.950      0.084      0.933      -1.784       1.944
+C(group_id)[T.PROD-WHS SALES]     -0.0305      0.949     -0.032      0.974      -1.892       1.831
+C(group_id)[T.PRODUCE]             7.1859      0.256     28.026      0.000       6.683       7.689
+C(group_id)[T.RESTAURANT]          0.5762      0.257      2.238      0.025       0.071       1.081
+C(group_id)[T.RX]                 -0.3344      0.574     -0.583      0.560      -1.460       0.791
+C(group_id)[T.SALAD BAR]           3.9958      0.248     16.122      0.000       3.509       4.482
+C(group_id)[T.SEAFOOD]             2.6566      0.268      9.927      0.000       2.131       3.182
+C(group_id)[T.SEAFOOD-PCKGD]       3.6872      0.275     13.429      0.000       3.148       4.226
+C(group_id)[T.SPIRITS]             2.5131      0.248     10.115      0.000       2.026       3.001
+C(group_id)[T.TOYS]               -0.6330      0.688     -0.920      0.358      -1.983       0.717
+C(group_id)[T.TRAVEL & LEISUR]     1.4104      0.253      5.580      0.000       0.914       1.906
+C(group_id)[T.VIDEO RENTAL]        0.1292      0.545      0.237      0.813      -0.939       1.198
+ln_p                              -0.0237      0.051     -0.460      0.645      -0.125       0.077
+discount_rate                      2.5302      0.502      5.036      0.000       1.544       3.516
+weekofyear                         0.0333      0.002     15.737      0.000       0.029       0.037
+==============================================================================
+Omnibus:                     1110.325   Durbin-Watson:                   1.270
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            91706.339
+Skew:                          -4.691   Prob(JB):                         0.00
+Kurtosis:                      47.094   Cond. No.                     1.37e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.37e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
