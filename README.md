@@ -169,7 +169,7 @@ If any notebook fails, the script will stop and print the last error.
 
 The demo video and main deliverables are hosted on Google Drive:
 
-- **Google Drive link:**
+- **Google Drive link:** https://drive.google.com/drive/folders/1O27ajaiYyqt2la9nYMrSCNKiE2JK8e9j
 
 The demo video briefly walks through:
 
